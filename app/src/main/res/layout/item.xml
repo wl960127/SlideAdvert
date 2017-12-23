@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <com.ftx.wl.slideadvert.SlideAD_View
+        android:id="@+id/id_iv_ad"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="matrix"
+        android:src="@mipmap/find"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/id_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="这是title"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
